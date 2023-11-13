@@ -1,1 +1,44 @@
 /* your code here */
+.photo-main{
+
+  background-color:#bff542;
+	justify-content:space-between;
+	width:40%;
+	color:white;
+}
+.controls{
+	display:flex;
+	justify-content:space-between;
+     padding:10px;
+}
+.photo-album>ul>li{
+	display:inline;
+	
+}
+.photo-album>ul>li>img{
+	border:2px solid grey;
+	border-radius:12px;
+	padding:1px;
+}
+.price{
+	color:red;
+	font-size:25px;
+}
+.variant>ul>li{
+	display:inline;
+}
+.variant>ul>li>img{
+	width: 50px;
+	margin-inline: 10px;
+	
+}
+.btn{
+background-color: #FE3F40;
+	padding: 20px;
+	padding-inline: 40px;
+	border: none;
+	border-radius: 10px;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+}
